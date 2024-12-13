@@ -1,0 +1,55 @@
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS system file used to store folder attributes
+.Spotlight-V100
+.Trashes
+
+# macOS Finder window settings
+.DS_Store
+.DS_Store?
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+._*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js if you ever use npm in the project
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+
+#postgres
+postgres-data/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build output
+dist/
+build/
